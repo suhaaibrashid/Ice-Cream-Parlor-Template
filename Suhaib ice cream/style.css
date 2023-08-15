@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(239, 233, 235);
+}
+
+.head li {
+    display: inline;
+    list-style: none;
+}
+
+.navbar .head {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar .logo {
+    font-size: 25px;
+}
+
+.navbar .head li a {
+    text-decoration: none;
+    position: relative;
+    margin-right: 8px;
+    padding-right: 140px;
+    bottom: 9px;
+    color: black;
+}
+
+.navbar .logo .f {
+    color: rgb(197, 58, 99);
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.navbar .logo .z {
+    color: rgb(190, 186, 59);
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.head li:hover {
+    color: rgb(206, 57, 89);
+    text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+    color: rgb(206, 57, 89);
+}
+
+h1 {
+    color: rgb(197, 58, 99);
+}
+
+.page .text {
+    background-color: #e9e7e8;
+}
+
+.page .text h3 {
+    display: flex;
+    justify-content: end;
+}
+
+h2,
+h1,
+h4 {
+    position: relative;
+    left: 55px;
+    top: 80px;
+}
+
+h3 {
+    position: relative;
+    right: 100px;
+    bottom: 150px;
+}
+
+.green .photo {
+    background-color: rgb(195,194,26);
+    width: 376px;
+    height: 150px;
+    position: relative;
+    bottom: 150px;
+}
